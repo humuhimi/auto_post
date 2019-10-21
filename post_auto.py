@@ -9,6 +9,10 @@ options = ChromeOptions()
 options.add_argument('-headless')
 
 driver = wd.Chrome()
+# urlをリスト化する
+url = "https://twitter.com/"
+
+driver.get(url)
 
 
 
